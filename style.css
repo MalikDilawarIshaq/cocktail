@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+@font-face {
+    font-family: SeoulHangang;
+    src: url(./Fonts/SeoulHangangCondensed-Bold.ttf);
+    src: url(./Fonts/SeoulHangangCondensed-BoldL.ttf);
+    src: url(./Fonts/SeoulHangangCondensed-ExtraBold.ttf);
+    src: url(./Fonts/SeoulHangangCondensed-Light.ttf);
+    src: url(./Fonts/SeoulHangangCondensed-Medium.ttf);
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-img {
+    background-image: url("./imges/welcomeImg.png");
+    background-position: center;
+}
+
+
+.color-C69946 {
+    color: #C69946;
+}
+.color-9F6236 {
+    color:#9F6236 ;
+}
+
+.font-65 {
+    font-size: 65px;
+    line-height: 65px;
+}
+
+.font-family-seoul {
+    font-family: SeoulHangang;
+}
+
+.font-95 {
+    font-size: 95px;
+    line-height: 95px;
+}
+
+.color-7A91A3 {
+    color: #7A91A3;
+}
+
+.color-828282 {
+    color: #828282;
+}
+
+.border-color-C69946 {
+    border-color: #C69946;
+}
+
+.width-130 {
+    width: 130px;
+}
+
+.height-50 {
+    height: 50px;
+}
+
+.bottom-10px {
+    bottom: 10px;
+}
+
+.font-42 {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.color-3F3E44 {
+    color: #3F3E44;
+}
+.setting-img{
+    bottom: 1%;
+    right: 7.3%;
+}
+.setting-1-img{
+    bottom: 1%;
+    left: 9.3%;
+}
+.width-height-60{
+    width: 60px;
+    height: 60px;
+}
+.font-size-22{
+    font-size: 22px;
+    line-height: 30px;
+}
+.bg-color-E5E5E5{
+    background-color:#E5E5E5;
+    
+}
+.border-E0E0E0{
+    border-color: #E0E0E0;
+}
+.bg-color-343338{
+    background-color: #343338;
+
+}
+input::placeholder{
+    color: #262728;
+}
+textarea::placeholder{
+    color: #7A91A3;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+textarea{
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+@media (min-width: 0px) and (max-width: 387px)  {
+    .mobile-bg{
+        background-image: url(./imges/mobile-bg.jpg);
+        background-position: center;
+    }
+    .height-1200{
+        height: 1200px;
+    }
+    .setting-img{
+        top: 25.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 25.5%;
+        left:13.5%;
+    }
+    .btn {
+        width: 220px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .font-68{
+        font-size: 68px;
+    }
+    .font-50{
+        font-size: 50px;
+    }
+    .font-25{
+        font-size: 25px;
+    }
+    .font-14{
+        font-size: 14px;
+    }
+    .width-height-60{
+        width: 45px;
+        height: 45px;
+    }
+    .font-29{
+        font-size: 19px;
+    }
+    
+}
+
+
+@media (min-width: 388px) and (max-width: 449px)  {
+    .mobile-bg{
+        background-image: url(./imges/mobile-bg.jpg);
+        background-position: center;
+    }
+    .height-1200{
+        height: 1200px;
+    }
+    .setting-img{
+        top: 25.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 25.5%;
+        left:13.5%;
+    }
+    .btn {
+        width: 220px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .font-68{
+        font-size: 68px;
+    }
+    .font-50{
+        font-size: 50px;
+    }
+    .font-25{
+        font-size: 25px;
+    }
+    .font-14{
+        font-size: 14px;
+    }
+    .width-height-60{
+        width: 45px;
+        height: 45px;
+    }
+    .font-29{
+        font-size: 21px;
+    }
+    
+}
+
+
+@media (min-width: 450px) and (max-width: 535px)  {
+    .mobile-bg{
+        background-image: url(./imges/mobile-bg.jpg);
+        background-position: center;
+    }
+    .height-1200{
+        height: 1200px;
+    }
+    .setting-img{
+        top: 25.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 25.5%;
+        left:13.5%;
+    }
+    .btn {
+        width: 220px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .font-68{
+        font-size: 68px;
+    }
+    .font-50{
+        font-size: 50px;
+    }
+    .font-25{
+        font-size: 25px;
+    }
+    .font-14{
+        font-size: 14px;
+    }
+    .width-height-60{
+        width: 45px;
+        height: 45px;
+    }
+    .font-29{
+        font-size: 24.35px;
+    }
+    
+}
+
+@media (min-width: 536px) and (max-width: 639px)  {
+    .mobile-bg{
+        background-image: url(./imges/mobile-bg.jpg);
+        
+    }
+    .height-1200{
+        height: 1200px;
+    }
+    .setting-img{
+        top: 25.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 25.5%;
+        left:13.5%;
+    }
+    .btn {
+        width: 220px;
+        height: 70px;
+        font-size: 25px;
+    }
+    .font-68{
+        font-size: 68px;
+    }
+    .font-50{
+        font-size: 50px;
+    }
+    .font-25{
+        font-size: 25px;
+    }
+    .font-14{
+        font-size: 14px;
+    }
+    .width-height-60{
+        width: 45px;
+        height: 45px;
+    }
+    .font-29{
+        font-size: 29px;
+    }
+    
+}
+
+@media (min-width: 640px) and (max-width: 660px)  {
+    .setting-img{
+        top: 25.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 25.5%;
+        left:13.5%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width: 661px) and (max-width: 690px)  {
+    .setting-img{
+        top: 26.5%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 26.5%;
+        left:13.5%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width: 691px) and (max-width: 720px)  {
+    .setting-img{
+        top: 28%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 28%;
+        left:13.5%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width: 721px) and (max-width: 767px)  {
+    .setting-img{
+        top: 30%;
+        right:11%;
+    }
+    .setting-1-img{
+        top: 30%;
+        left:13.5%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+         
+@media (min-width:768px) and (max-width:809px) {
+    .setting-img{
+        top: 31%;
+        right:12%;
+    }
+    .setting-1-img{
+        top: 31%;
+        left:15%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width:810px) and (max-width:900px) {
+    .setting-img{
+        top: 34%;
+        right:13%;
+    }
+    .setting-1-img{
+        top: 34%;
+        left:16%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width:901px) and (max-width:970px) {
+    .setting-img{
+        top: 34%;
+        right:16%;
+    }
+    .setting-1-img{
+        top: 34%;
+        left:17%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+@media (min-width:971px) and (max-width:1023px) {
+    .setting-img{
+        top: 34%;
+        right:16.5%;
+    }
+    .setting-1-img{
+        top: 34%;
+        left:19%;
+    }
+    .btn{
+        width: 280px;
+        height: 75px;
+        font-size: 28px;
+    }
+    
+}
+
+@media (min-width:1024px) and (max-width:1279px) {
+    .setting-img{
+        bottom: 2%;
+        right:6.5%;
+    }
+    .setting-1-img{
+        bottom: 2%;
+        left:8.5%;
+    }
+}
